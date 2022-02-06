@@ -93,3 +93,6 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+
+# Extras
+default_embed_thumb: "/assets/img/black_ops_3_logo.png"
