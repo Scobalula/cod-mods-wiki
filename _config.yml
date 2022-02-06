@@ -22,10 +22,10 @@ description: > # this means to ignore newlines until "baseurl:"
   on Call of Duty Modding with a focus on the Black Ops III Mod Tools.
 
 # Add your baseurl here (your repository) but DO NOT CHANGE THE LINE NUMBER without editing .circleci/circle_urls.sh
-baseurl: "/cod-mods-wiki" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 
 # This is mostly for testing
-url: "https://scobalula.github.io/" # the base hostname & protocol for your site
+url: "https://wiki.codmods.com" # the base hostname & protocol for your site
 
 # Social (First three Required)
 repo: "https://github.com/Scobalula/cod-mods-wiki"
