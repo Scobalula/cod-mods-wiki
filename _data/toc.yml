@@ -1,0 +1,12 @@
+- title: Black Ops III
+  url: docs/bo3
+  links:
+    - title: "Ambient Rooms"
+      url: "docs/bo3/adding_ambient_rooms"
+- title: "General"
+  url: "docs/extras"
+  links:
+    - title: News
+      url: "news"
+    - title: Tags
+      url: "tags"
