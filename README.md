@@ -26,6 +26,6 @@ If you're finding it hard to follow all this but still want to contribute then y
 
 # Credits
 
-The CoD Mods Logo is from on the Noun Project, you can view it [here](https://thenounproject.com/icon/rpg-2526449/). 
+The CoD Mods Logo is from [Andrejs Kirma](https://thenounproject.com/andrejs/) on the Noun Project, you can view it [here](https://thenounproject.com/icon/rpg-2526449/). 
 
 The main wiki is powered by the beautiful [Docsy for Jekyll](https://github.com/vsoch/docsy-jekyll) by [Vanessasaurus](https://github.com/vsoch).
