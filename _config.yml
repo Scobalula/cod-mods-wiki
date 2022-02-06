@@ -95,4 +95,4 @@ defaults:
       layout: "post"
 
 # Extras
-default_embed_thumb: "/assets/img/black_ops_3_logo.png"
+default_embed_thumb: "/assets/img/logo_big.png"
