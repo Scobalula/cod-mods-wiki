@@ -3,6 +3,8 @@
   links:
     - title: "Ambient Rooms"
       url: "docs/bo3/ambient_rooms"
+    - title: "Destructibles"
+      url: "docs/bo3/destructibles"
 - title: "General"
   url: "docs/extras"
   links:
