@@ -6,6 +6,8 @@
 
 Welcome to the main repository for the CoD Mods Wiki. Our goal with this site is to provide a wiki dedicated to technical and general information on modding Call of Duty. We generally focus primarily on Call of Duty: Black Ops III but are welcome to anyone to submit info for other Call of Duty titles, including those without official SDKs.
 
+**This wiki is not affiliated with Activision or the developers, we are modders who want to help out other modders with working with Call of Duty.**
+
 # Contributing
 
 Our goal is to build this wiki up with as much information as possible, and your help is highly appreciated.
