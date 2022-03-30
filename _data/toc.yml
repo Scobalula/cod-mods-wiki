@@ -5,13 +5,15 @@
       url: "docs/bo3/ambient_rooms"
     - title: "Destructibles"
       url: "docs/bo3/destructibles"
-      # children:
-      #   - title: Setting up a Destructible Wall
-      #     url: "docs/bo3/destructibles/setting_up_a_destructible_wall"
-      #   - title: Setting up a Destructible Vehicle
-      #     url: "docs/bo3/destructibles/setting_up_a_destructible_vehicle"
-      #   - title: Scripting Destructibles
-      #     url: "docs/bo3/destructibles/scripting_destructibles"
+      children:
+        - title: Setting up a Destructible Wall
+          url: "docs/bo3/destructibles/setting_up_a_destructible_wall"
+        - title: Setting up a Destructible Vehicle
+          url: "docs/bo3/destructibles/setting_up_a_destructible_vehicle"
+        - title: Scripting Destructibles
+          url: "docs/bo3/destructibles/scripting_destructibles"
+    - title: "Localized Sounds"
+      url: "docs/bo3/sound/localized_sounds"
 - title: "General"
   url: "docs/extras"
   links:
