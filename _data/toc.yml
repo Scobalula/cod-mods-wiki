@@ -14,6 +14,11 @@
           url: "docs/bo3/destructibles/scripting_destructibles"
     - title: "Localized Sounds"
       url: "docs/bo3/sound/localized_sounds"
+- title: "Parasyte"
+  url: "docs/parasyte/index"
+  links:
+    - title: "Creating a Dump"
+      url: "docs/parasyte/creating_a_dump"
 - title: "General"
   url: "docs/extras"
   links:
