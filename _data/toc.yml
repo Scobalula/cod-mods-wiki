@@ -17,6 +17,8 @@
 - title: "Parasyte"
   url: "docs/parasyte/index"
   links:
+    - title: "Using Parasyte"
+      url: "docs/parasyte/using_parasyte"
     - title: "Creating a Dump"
       url: "docs/parasyte/creating_a_dump"
 - title: "General"
