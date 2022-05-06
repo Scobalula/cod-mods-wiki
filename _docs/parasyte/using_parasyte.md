@@ -15,7 +15,7 @@ description: "This tutorial explains how to use Parasyte."
 
 While Parasyte's CLI can be intimidating to many, it's incredibly simple to use for most people.
 
-First off, make sure you have followed the [Creating a Dump](docs/parasyte/creating_a_dump) for the title/s you want to work with, it's very important to do this step carefully to produce what Parasyte needs and to ensure you do not get targetted by the anti-cheats.
+First off, make sure you have followed the [Creating a Dump](/docs/parasyte/creating_a_dump) for the title/s you want to work with, it's very important to do this step carefully to produce what Parasyte needs and to ensure you do not get targetted by the anti-cheats.
 
 An example of what Parasyte should look like with a game initialized and a file loaded:
 
