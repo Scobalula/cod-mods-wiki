@@ -32,7 +32,7 @@ In a similar fashion to how emulators cannot provide you with a BIOS, we cannot 
 The step by step process for dumping the executable for Parasyte to use is as follows:
 
 1. Download Scylla: [https://github.com/NtQuery/Scylla](https://github.com/NtQuery/Scylla) to use for dumping from the "Releases" section, there are plenty of tools for dumping but Scylla is simple to use and is excellent at what it does. Once downloaded, unpack it to a directory of your choice.
-2. Disconnect from the Internet, you can do this by pulling out your ethernet cable or disabling your network adapter.
+2. Disconnect from the Internet, you can do this by pulling out your ethernet cable or disabling your network adapter. **This is not optional in some titles, it must be done**.
 3. Go to your game's directory and open its executable, wait a few seconds for it to fully load. In some titles, you will get a screen saying the game cannot authenticate with the service, at this point, the executable is unpacked in memory.
 4. Open Resource Monitor in Windows and click the CPU tab, try to find the game's executable, once found, right click on it and click "Suspend Process".
 5. Return to where you unpacked Scylla and run "Scylla_x64.exe", this will open a window with several options available to you.
@@ -41,7 +41,3 @@ The step by step process for dumping the executable for Parasyte to use is as fo
 8. Once selected, the "Dump" button should become available, you can now click it.
 9. Scylla will ask you where to save the dump, you'll want to save to the "Data" folder in Parasye's folder.
 10. Once done, you can now close the game and all the tools we have used to dump it.
-
-
-
-{% include alert.html title="Example" type="info" content="The disconnect and suspend step is optional but I recommend doing it to reduce any possibility of being banned." %}
