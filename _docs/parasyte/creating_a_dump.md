@@ -15,9 +15,9 @@ description: "This tutorial explains how to produce a dump file for Parasyte to 
 
 ## Introduction
 
-{% include alert.html title="Example" type="info" content="You agree that by following this tutorial that the authors take no responsibility for any damages caused such as game bans. Follow at your own risk." %}
+{% include alert.html title="Warning" type="danger" content="You agree that by following this tutorial that the authors take no responsibility for any damages caused such as game bans. Follow at your own risk." %}
 
-{% include alert.html title="Example" type="info" content="Make sure to follow this tutorial step by step, failing to do so may result in issues or game bans." %}
+{% include alert.html title="Note" type="info" content="Make sure to follow this tutorial step by step, failing to do so may result in issues or game bans." %}
 
 In order for Parasyte to load fast files it requires a dump of the executable for the title you want to work with from memory, we cannot use the exectuable from disk as it is packed and protected.
 
@@ -25,9 +25,9 @@ In a similar fashion to how emulators cannot provide you with a BIOS, we cannot 
 
 ## Dumping the Executable
 
-{% include alert.html title="Example" type="info" content="I do not recommend sharing dumps, as dumps may contain personal information stored by the game." %}
+{% include alert.html title="Warning" type="danger" content="I do not recommend sharing dumps, as dumps may contain personal information stored by the game." %}
 
-{% include alert.html title="Example" type="info" content="Due to the use of stronger AC and KAC in modern titles, you need to be careful doing this or else may be banned, following this tutorial step by step should have virtually no risk of being banned." %}
+{% include alert.html title="Warning" type="danger" content="Due to the use of stronger AC and KAC in modern titles, you need to be careful doing this or else may be banned, following this tutorial step by step should have virtually no risk of being banned." %}
 
 The step by step process for dumping the executable for Parasyte to use is as follows:
 

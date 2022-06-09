@@ -19,6 +19,8 @@
   links:
     - title: "Using Parasyte"
       url: "docs/parasyte/using_parasyte"
+    - title: "Using Parasyte with Greyhound"
+      url: "docs/parasyte/using_parasyte_with_greyhound"
     - title: "Creating a Dump"
       url: "docs/parasyte/creating_a_dump"
 - title: "General"

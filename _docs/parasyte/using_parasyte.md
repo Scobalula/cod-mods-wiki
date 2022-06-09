@@ -1,10 +1,8 @@
 ---
-title: Creating a Dump
+title: Using Parasyte
 tags: 
   - parasyte
   - ripping
-  - dumping
-  - creating a dump
 authors: 
   - Scobalula
 section: parasyte
@@ -13,7 +11,9 @@ description: "This tutorial explains how to use Parasyte."
 
 # Using Parasyte
 
-While Parasyte's CLI can be intimidating to many, it's incredibly simple to use for most people.
+{% include alert.html title="Note" type="warning" content="When sending commands to Parasyte, it looks for spaces to split commands and data by, when providing file paths or names that contain spaces, make sure to put them in quotes so that Parasyte doesn't split them, like this: ```loadlist \"C:\I have a space\which makes me sad if there are no quotes around me.txt\"```" %}
+
+While Parasyte's CLI can be intimidating to many, it's incredibly simple to use for most people. Once you get the hang of it, it's like a walk in the park.
 
 First off, make sure you have followed the [Creating a Dump](/docs/parasyte/creating_a_dump) for the title/s you want to work with, it's very important to do this step carefully to produce what Parasyte needs and to ensure you do not get targetted by the anti-cheats.
 
@@ -91,7 +91,24 @@ unloadall
 unloadallnoncommon
 ```
 
-{% include alert.html title="Example" type="info" content="If you're stuck for what file names are for particular levels, the wiki usually has names of each level's codename you can use." %}
+{% include alert.html title="Note" type="info" content="If you're stuck for what file names are for particular levels, the wiki usually has names of each level's codename you can use." %}
+
+### Loading Files by UI Names
+
+Modern titles contain thousands of files with some assets being shared in single files with different names, with this in mind it might be more desirable to be able to load the content you want by the name you see in the UI. This can be done using the **loadalias** command.
+
+{% include alert.html title="Note" type="warning" content="Not all titles support alias based loading. The list of titles that support it and what is supported within the alias files is constantly changing, so make sure to check the .JSON files in Parasyte's Data folder to see what it is supported." %}
+
+The set of data we parse for the `loadalias` command is:
+
+* Campaign Levels
+* Multiplayer Maps
+* Operators
+* Weapons
+
+When loading Operators and Weapons you only need to know the name of it and not the bundle names, for example entering `loadalias "AK-47"` will load the AK-47 and all attachments and variants for it. For operators, this includes all their skins including head, body, and viewhands models.
+
+To load maps, simply pass the map name, for example: `loadalias "Eagle's Nest"`
 
 ## Creating Batch Files
 
@@ -103,24 +120,26 @@ An example would be creating a batch file for each title and simply having to cl
 
 For those who just want the juicy details straight up, here's a list of commands:
 
-| Command             | Description                                                             | Example                                        |
-|---------------------|-------------------------------------------------------------------------|------------------------------------------------|
-| explain             | Explains the provided command.                                          | `explain help explain loadcommonfiles`         |
-| help                | Shows this help message.                                                | `help`                                         |
-| sethandler          | Sets the current handler.                                               | `sethandler mw4`                               |
-| deinit              | Unloads all files and deinitializes the current handler.                | `deinit`                                       |
-| init                | Initializes the current handler with a given game path.                 | `init "C:\Path\To\Game"`                       |
-| setlocaleprefix     | Sets the game specific locale prefix.                                   | `setlocaleprefix english\en_`                  |
-| loadcommonfiles     | Loads common files for the current handler.                             | `loadcommonfiles`                              |
-| load                | Loads a file with the given name.                                       | `load mp_shipment`                             |
-| loadwc              | Loads a file using wildcard matching if supported by the handler.       | `loadwc *mpapa5*`                              |
-| cachelist           | Caches a list of files, useful for games that store old files.          | `cachelist C:\list.txt`                        |
-| cacheload           | Loads files from the cache list, useful for games that store old files. | `cacheload *mpapa5* cacheload mp_filename_tr`  |
-| loadlist            | Loads files using a list file.                                          | `loadlist C:\list.txt`                         |
-| unload              | Unloads a file with the given name.                                     | `unload Ma_rv`                                 |
-| unloadall           | Unloads all files, including common files.                              | `unloadall`                                    |
-| unloadallnoncommon  | Unloads all non-common files.                                           | `unloadallnoncommon`                           |
-| listfiles           | Lists all potential files to the log.                                   | `listfiles`                                    |
-| enableprogress      | Enables progress bars if supported by the handler.                      | `enableprogress`                               |
-| disableprogress     | Disables progress bars if supported by the handler.                     | `enableprogress`                               |
-| exit                | Exits Parasyte.                                                         | `exit`                                         |
+| Command             | Description                                                             | Example                                                                |
+|---------------------|-------------------------------------------------------------------------|------------------------------------------------------------------------|
+| explain             | Explains the provided command.                                          | `explain help explain loadcommonfiles`                                 |
+| help                | Shows this help message.                                                | `help`                                                                 |
+| sethandler          | Sets the current handler.                                               | `sethandler mw4`                                                       |
+| deinit              | Unloads all files and deinitializes the current handler.                | `deinit`                                                               |
+| init                | Initializes the current handler with a given game path.                 | `init "C:\Path\To\Game"`                                               |
+| setlocaleprefix     | Sets the game specific locale prefix.                                   | `setlocaleprefix english\en_`                                          |
+| loadcommonfiles     | Loads common files for the current handler.                             | `loadcommonfiles`                                                      |
+| load                | Loads a file with the given name.                                       | `load mp_shipment`                                                     |
+| loadalias           | Loads files from the alias cache with the given name.                   | `loadalias "AK-47" loadalias "Polina" loadalias "Eagle's Nest"`        |
+| loadwc              | Loads a file using wildcard matching if supported by the handler.       | `loadwc *mpapa5*`                                                      |
+| loadlist            | Loads files using a list file.                                          | `loadlist C:\list.txt`                                                 |
+| cachelist           | Caches a list of files, useful for games that store old files.          | `cachelist C:\list.txt`                                                |
+| cacheload           | Loads files from the cache list, useful for games that store old files. | `cacheload *mpapa5* cacheload mp_filename_tr`                          |
+| unload              | Unloads a file with the given name.                                     | `unload Ma_rv`                                                         |
+| unloadall           | Unloads all files, including common files.                              | `unloadall`                                                            |
+| unloadallnoncommon  | Unloads all non-common files.                                           | `unloadallnoncommon`                                                   |
+| unloadalias         | Unloads all files potentially loaded by the given alias.                | `unloadalias "AK-47" unloadalias "Polina" unloadalias "Eagle's Nest"`  |
+| listfiles           | Lists all potential files to the log.                                   | `listfiles`                                                            |
+| enableprogress      | Enables progress bars if supported by the handler.                      | `enableprogress`                                                       |
+| disableprogress     | Disables progress bars if supported by the handler.                     | `enableprogress`                                                       |
+| exit                | Exits Parasyte.                                                         | `exit`                                                                 |
