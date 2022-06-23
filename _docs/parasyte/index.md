@@ -12,7 +12,7 @@ You can find documentation in the TOC on using Parasyte and how to produce files
 
 ## Downloading
 
-Parasyte can be downloaded by joining my Discord server: [https://discord.gg/RyqyThu](https://discord.gg/RyqyThu). From there you can grab the latest build from Parasyte's channel.
+Parasyte can be downloaded by joining my Discord server: [https://discord.gg/RyqyThu](https://discord.gg/RyqyThu). From there you can grab the latest build from Parasyte's channel. In order to access Parasyte's channel, you must be at least Level 1 or higher, which can be earned by talking in the server, or by being a supporter, for which info can be found in my server.
 
 ## Requirements
 
