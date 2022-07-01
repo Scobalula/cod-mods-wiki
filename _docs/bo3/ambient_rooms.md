@@ -22,9 +22,11 @@ This tutorial will show you how to add Ambient Rooms to your map, these will all
 
 {% include alert.html type="primary" title="Note" content="For Ambient Rooms to work you must have your weapon aliases set up properly using Contexts, Reverb settings, etc. All stock weapons are set up correctly for ambient rooms." %}
 
-{% include alert.html title="Ambient Example" type="info" content="An example of the ambient file used in The Giant can be downloaded [Here](https://mega.nz/#!AAtByKBT!V9wQXm1-qYFLWHfjpbSY3srb2CfSxOylYoYBntE8cMc)." %}
+{% include alert.html title="Ambient Example" type="info" content="An example of a map using ambient rooms can be downloaded [Here](https://mega.nz/file/07wB2YSL#dl3vd5y-DterveyG_89wVacxX57h-JSOkwpwC65Mqgw)." %}
 
-To start go to `Call of Duty Black Ops III\share\raw\sound\ambients` and make a copy of the file `ambient_mod.csv` and name it whatever you like, you can also use The Giant's example provided above if you wish.
+{% include alert.html title="Ambient Example" type="info" content="An example of an ambient file can be downloaded [Here](https://mega.nz/file/A6Zx3aAR#2jU0caM89xsSrJRJ4C5Dy8T6hmGJcxIQwpYWPHeYgBo). This example file is included in the map example above as well." %}
+
+To start go to `Call of Duty Black Ops III\share\raw\sound\ambients` and make a copy of the file `ambient_mod.csv` and name it whatever you like, you can also use the example provided above if you wish.
 
 The file will look like this in a text editor:
 
@@ -46,7 +48,7 @@ Here we can define "rooms" for our map, that will be played based off the area i
 * **Loop** - Sets a loop sound to play when in the room, useful for rain, etc.
 * **Duck** - Duck to use, a list of stock ones can be found in `Call of Duty Black Ops III\share\raw\sound\ducks`
 
-If you'd like to simply use Treyarch's ambient settings, you can extract them in-game using [HydraX](https://github.com/Scobalula/HydraX/) which should give you plenty of good examples and usable room values alongside The Giant's example above.
+If you'd like to simply use Treyarch's ambient settings, you can extract them in-game using [HydraX](https://github.com/Scobalula/HydraX/) which should give you plenty of good examples and usable room values alongside the example above.
 
 ## Adding Triggers
 
@@ -125,8 +127,8 @@ Next similar to sound aliases, we'll add an entry for our ambient file, for exam
 ```json
 {
  "Type" : "AMBIENT",
- "Name" : "zm_giant",
- "Filename" : "zm_giant.csv",
+ "Name" : "zm_ambient",
+ "Filename" : "zm_ambient.csv",
  "Specs" : []
 },
 ```
