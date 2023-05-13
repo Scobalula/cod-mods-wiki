@@ -23,6 +23,11 @@
       url: "docs/parasyte/using_parasyte_with_greyhound"
     - title: "Creating a Dump"
       url: "docs/parasyte/creating_a_dump"
+- title: "Privacy Policies"
+  url: "docs/privacy_policies/index"
+  links:
+    - title: "Helpdesk"
+      url: "docs/privacy_policies/helpdesk"
 - title: "General"
   url: "docs/extras"
   links:
