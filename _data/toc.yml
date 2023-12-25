@@ -14,20 +14,6 @@
           url: "docs/bo3/destructibles/scripting_destructibles"
     - title: "Localized Sounds"
       url: "docs/bo3/sound/localized_sounds"
-- title: "Parasyte"
-  url: "docs/parasyte/index"
-  links:
-    - title: "Using Parasyte"
-      url: "docs/parasyte/using_parasyte"
-    - title: "Using Parasyte with Greyhound"
-      url: "docs/parasyte/using_parasyte_with_greyhound"
-    - title: "Creating a Dump"
-      url: "docs/parasyte/creating_a_dump"
-- title: "Privacy Policies"
-  url: "docs/privacy_policies/index"
-  links:
-    - title: "Helpdesk"
-      url: "docs/privacy_policies/helpdesk"
 - title: "General"
   url: "docs/extras"
   links:
