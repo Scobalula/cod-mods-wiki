@@ -14,6 +14,18 @@
           url: "docs/bo3/destructibles/scripting_destructibles"
     - title: "Localized Sounds"
       url: "docs/bo3/sound/localized_sounds"
+- title: Software
+  url: docs/software
+  links:
+    - title: "Alchemist"
+      url: "docs/software/alchemist"
+      children:
+        - title: Download Alchemist
+          url: "docs/software/alchemist/alchemist-download"
+        - title: Using Alchemist
+          url: "docs/software/alchemist/alchemist-usage"
+        - title: Shortcuts in Alchemist
+          url: "docs/software/alchemist/alchemist-shortcuts"
 - title: "General"
   url: "docs/extras"
   links:
